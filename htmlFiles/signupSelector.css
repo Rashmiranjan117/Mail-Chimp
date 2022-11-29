@@ -1,0 +1,125 @@
+#layout12{
+    background-color: beige;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 50px;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    border-bottom: 2px solid rgb(113, 113, 113);
+}
+#layout1{
+    border: 1px solid rgb(134, 133, 133);
+    display: grid;
+    width: 95%;
+    margin: auto;
+    grid-template-columns: repeat(4,1fr);
+}
+#layout1>div{
+border: 1px solid gray;
+padding: 20px;
+
+}
+#layout1>div>button{
+    width: 100%;
+}
+#buyNow{
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#blank{
+    background-color:white;
+    height: 70px;
+}
+#layout2{
+ /* border: 1px solid black; */
+ margin: auto;   
+ width: 80%;
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ text-align: left;
+}
+#layout2>div{
+    padding: 25px;
+}
+#layout2>div:first-child{
+    border-right: 1px solid gray;
+}
+#btn{
+    background-color: white;
+    border: 0.5px solid teal;
+    color: teal;
+    border-radius: 5px;
+}
+#btn:hover{
+    border: 0.5px solid rgb(6, 80, 80);
+    color: rgb(6, 80, 80);
+}
+#layout3{
+    /* border: 1px solid black; */
+    margin: auto;   
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: left;
+   }
+   #layout3>div{
+       padding: 25px;
+   }
+   #layout3>div:first-child{
+       border-right: 1px solid gray;
+   }
+   #layout4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+   }
+   #layout4>div{
+    width: 100%;
+   }
+   #layout4>div>img{
+    width: 80%;
+   }
+
+   @media all and (min-width:481px) and (max-width:791px){
+    #layout1{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+    }
+    #layout2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       }
+       #layout3{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       }
+       #layout4{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+       }
+   }
+   @media all and (min-width:200px) and (max-width:480px){
+    #layout1{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+    }
+    #layout2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       }
+       #layout3{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       }
+       #layout4{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       }
+   }

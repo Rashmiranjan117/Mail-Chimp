@@ -1,0 +1,314 @@
+#container{
+    width: 100%;
+    margin: auto;
+}
+#topLayout{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2,1fr);
+    /* border: 1px solid black; */
+    margin: auto;
+    padding:40px;
+    text-align: left;
+    background-color:#FFE01B; ;
+}
+button{
+    font-size: 18px;
+    padding: 20px;
+}
+
+#topLayout>div:last-child{
+    width: 60%;
+
+}
+#topLayout>div>img{
+    width: 100%;
+}
+#SignUp{
+    background-color: teal;
+    color: white;
+    border: none;
+    margin-top: 40px;
+    margin-left:40px;
+    border-radius: 5px;
+}
+#SignUp:hover{
+    background-color: rgb(10, 81, 81);
+}
+
+#layout2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 25px;
+}
+#layout2>div{
+    width:100%;
+    /* border:1px solid red; */
+    height: auto;
+    padding: 25px;
+    margin: auto;
+}
+#layout2>div>img{
+    width: auto;
+    height:500px;
+}
+#SellMore{
+    background-color: white;
+    border: 0.5px solid teal;
+    color: teal;
+    border-radius: 5px;
+    margin: 30px 40px;
+    padding: 20px;
+
+}
+#layout3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 25px; 
+}
+#layout3>div{
+    width:100%;
+    /* border:1px solid red; */
+    height: auto;
+    padding: 25px;
+}
+#layout3>div>img{
+    width: auto;
+    height:500px;
+}
+#layout4{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 25px; 
+}
+#layout4>div{
+    width:100%;
+    /* border:1px solid red; */
+    height: auto;
+    padding: 25px;
+}
+#layout4>div>img{
+    width: auto;
+    height:500px;
+}
+#layout5{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 25px; 
+    text-align: center;
+}
+#layout5>div{
+    width:100%;
+    /* border:1px solid red; */
+    height: auto;
+    padding: 25px;
+}
+#layout5>div>img{
+    width: auto;
+    height:300px;
+}
+#center{
+    text-align: center;
+    margin: 50px 0px;
+}
+#layout6{
+    background-color: rgb(252, 242, 230);
+    margin: auto;
+    padding: 25px; 
+    text-align: center;
+}
+#innerLayout6{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#layout7{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 25px; 
+}
+#layout7>div{
+    width:100%;
+    /* border:1px solid red; */
+    height: auto;
+    padding: 25px;
+}
+#layout7>div>img{
+    width: auto;
+    height:500px;
+}
+
+#layout8{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 25px; 
+}
+#layout8>div{
+    width:100%;
+    /* border:1px solid red; */
+    height: auto;
+    padding: 25px;
+}
+#layout8>div>img{
+    width: auto;
+    height:500px;
+}
+#layout9{
+    margin-left: 40px;
+}
+#layout10{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 25px; 
+}
+#layout10>div{
+    width:100%;
+    /* border:1px solid red; */
+    height: auto;
+    padding: 25px;
+}
+#layout10>div>img{
+    width: 60%;
+    margin-left: 40px;
+    height:auto;
+}
+
+#layout10>div>p{
+    color: grey;
+}
+#layout11{
+    background-color: #FFE01B;
+    padding: 35px;
+}
+
+#layout12{
+    background-color: beige;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 50px;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    border-bottom: 2px solid rgb(113, 113, 113);
+}
+
+@media all and (min-width: 481px) and (max-width:721px){
+
+    #topLayout{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #layout2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #layout3{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #layout4{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #layout5{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    #innerLayout6{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);  
+    }
+    #layout7{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #layout8{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #layout10{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #layout12{
+        
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media all and (min-width:200px) and (max-width:480px){
+    #topLayout{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #layout2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #layout3{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #layout4{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #layout5{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #innerLayout6{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);  
+    }
+    #layout7{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #layout8{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #layout10{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #layout12{
+        
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+
