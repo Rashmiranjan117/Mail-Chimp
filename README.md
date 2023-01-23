@@ -1,5 +1,5 @@
-# Rashmiranjan_Mahanta-cold-lamp-3047-Construct-week-project
-[![MasterHead](https://github.com/Rashmiranjan117/Rashmiranjan117.github.io/blob/master/src/assests/MailChimp.jpg)]
+
+
 
 
 # MailChimp Clone
