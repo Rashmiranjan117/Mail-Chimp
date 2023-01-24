@@ -5,6 +5,8 @@
 # MailChimp Clone
 Mailchimp is an marketing automation platform and email marketing service. They Provide marketing service to companies via Email. This is an Indivisual project made in duration of 5 days.
 
+This project was made after learning html,css and combining with basic javascript.
+
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://rashmiranjan117.github.io/)
@@ -19,6 +21,7 @@ Mailchimp is an marketing automation platform and email marketing service. They 
 - Login 
 - SignUp
 - Payments
+- Checkout page
 
 
 ## 🛠 Tech Stacks used
